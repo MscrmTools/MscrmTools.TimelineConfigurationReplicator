@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MscrmTools.TimelineConfigurationReplicator</id>
+    <version>1.2022.10.0</version>
+    <title>Timeline Configuration Replicator for XrmToolBox</title>
+    <authors>MscrmTools</authors>
+    <owners>MscrmTools</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/MscrmTools/MscrmTools.TimelineConfigurationReplicator</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/wiki/MscrmTools/XrmToolBox/Images/logo_0100.png</iconUrl>
+    <description>Replicate the configuration of a timeline control to another timeline controls</description>
+    <summary>Replicate the configuration of a timeline control to another timeline controls</summary>
+    <releaseNotes>
+      Initial releasse
+    </releaseNotes>
+    <tags>XrmToolBox Plugin Timeline Configuration Replicator</tags>
+    <dependencies>
+      <dependency id="XrmToolBox" version="1.2022.9.57" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\MscrmTools.TimelineConfigurationReplicator.dll" target="lib\net452\Plugins" />
+  </files>
+</package>
